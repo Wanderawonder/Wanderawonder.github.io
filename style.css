@@ -4,6 +4,23 @@ body {
     margin: 0;
 }
 
+.button {
+    height: 60px;
+    width: 80px;
+    margin-top: 0;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 30%;
+    float: left;
+    margin-left: 30px;
+    transition: width 0.5s, height 0.5s, transform 1.5s;
+}
+
+.button:hover {
+    width: 75px;
+    height: 75px;
+    transform: rotate(360deg);
+}
+
 a {
     text-decoration: none;
     color: #7466c5;
@@ -22,8 +39,18 @@ p{
     text-indent: 20px;
 }
 
+h2 {
+    background-color: rgb(255, 115, 80);
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+
+
+
 h3{
-    background-color: #864006;
+    background-color: #f1f88a;
     color: white;
     line-height: 30px;
     padding-left:10px;
@@ -39,10 +66,4 @@ h3{
     padding: 10px 20px;
     margin-top: 0;
     background-image: url("timg.jpg")
-}
-@-webkit-keyframes GrowQuare {
-    to {
-        background-color: yellow;
-        border-radius: 0;
-    }
 }
